@@ -4,6 +4,12 @@
 # and for every wrong answer user get 0. 
 # at last total score will be shown 
 
+# This is a simple quiz game 
+# A user will be asked few questions 
+# For every right answer user get score 1, 
+# and for every wrong answer user get 0. 
+# at last total score will be shown 
+
 import json
 
 with open('questions.json', 'r') as file: # question.json file holds the questions to be asked in this quiz 
