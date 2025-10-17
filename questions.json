@@ -1,0 +1,54 @@
+{
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is the capital of Japan?",
+        "answer": "Tokyo"
+      },
+      {
+        "id": 2,
+        "question": "What is the color of a ripe strawberry?",
+        "answer": "Red"
+      },
+      {
+        "id": 3,
+        "question": "What is the opposite of 'day'?",
+        "answer": "Night"
+      },
+      {
+        "id": 4,
+        "question": "How many wheels does a bicycle have?",
+        "answer": "Two"
+      },
+      {
+        "id": 5,
+        "question": "What is the name of our planet?",
+        "answer": "Earth"
+      },
+      {
+        "id": 6,
+        "question": "What do you use to write on a blackboard?",
+        "answer": "Chalk"
+      },
+      {
+        "id": 7,
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "answer": "Carbon"
+      },
+      {
+        "id": 8,
+        "question": "What is the largest ocean on Earth?",
+        "answer": "Pacific"
+      },
+      {
+        "id": 9,
+        "question": "What is the primary ingredient in bread?",
+        "answer": "Flour"
+      },
+      {
+        "id": 10,
+        "question": "What sound does a cat make?",
+        "answer": "Meow"
+      }
+    ]
+  }
