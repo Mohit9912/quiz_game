@@ -11,17 +11,19 @@
 # at last total score will be shown 
 
 import json
+import random
 
 with open('questions.json', 'r') as file: # question.json file holds the questions to be asked in this quiz 
     data = json.load(file)
 
 score = 0
 questions = data['quiz']   
-question_no = len(questions)
+question_nos = len(questions)
+random.shuffle(questions)
 
 print("\n welcome to the quiz!")
 
-print(f"total number or questions are {question_no}")
+print(f"total number or questions are {question_nos}")
 for item in questions:
     user_text = item['question']
     user_answer = item['answer']
@@ -34,4 +36,7 @@ for item in questions:
     else:
         print(f"wronganswer!, correct answer is {user_answer}")
 
-print(f"your final score is: {score}")
+
+final_score = (score*100)/question_nos
+print(f"your final score is: {score}/{question_nos}")
+print(f" and in percentage is: {final_score} %")

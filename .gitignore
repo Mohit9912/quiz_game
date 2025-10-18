@@ -1,0 +1,16 @@
+# Python virtual environments
+check_env/
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE/Editor folders (optional, but good practice)
+.vscode/
+.idea/
+
+# Secret files (you might add this later)
+# .env
