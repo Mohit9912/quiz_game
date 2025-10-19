@@ -1,0 +1,3 @@
+# if using a linux based OS, consider making virtual environment in terminal 
+# copy the below code and run it in terminal 
+pip install colorama 

@@ -25,9 +25,9 @@ questions = data['quiz']
 question_nos = len(questions)
 random.shuffle(questions)
 
-print("\n welcome to the quiz!")
+print(Fore.CYAN + "\n welcome to the quiz!")
 
-print(f"total number or questions are {question_nos}")
+print(Fore.CYAN+f"total number or questions are {question_nos}")
 for item in questions:
     user_text = item['question']
     user_answer = item['answer']
@@ -42,4 +42,4 @@ for item in questions:
 
 
 final_score = (score*100)/question_nos
-print(Fore.MAGENTA + f"your final score is: {score}/{question_nos}\n and in percentage is: {final_score} % ")
+print(Fore.MAGENTA + f"your final score is: {score}/{question_nos}\nand in percentage is: {final_score} % ")
